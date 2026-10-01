@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LumaSkin | Skincare for Your Glow</title>
+    <meta
+      name="description"
+      content="Shop science-backed skincare essentials for hydration, brightening, and barrier support."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <nav class="container nav">
+        <div class="brand">
+          <span class="brand-mark">L</span>
+          <span>LumaSkin</span>
+        </div>
+        <div class="nav-links">
+          <a href="#shop">Shop</a>
+          <a href="#ingredients">Ingredients</a>
+          <a href="#routine">Routine</a>
+          <a href="#reviews">Reviews</a>
+        </div>
+        <a class="btn btn-primary" href="#shop">Shop now</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow">Clean formulas. Visible results.</p>
+            <h1>Skincare that keeps your glow healthy and hydrated.</h1>
+            <p class="subtitle">
+              Thoughtful essentials designed to calm sensitivity, support your skin barrier,
+              and reveal your natural radiance every day.
+            </p>
+            <div class="button-row">
+              <a class="btn btn-primary" href="#shop">Start your routine</a>
+              <a class="btn btn-secondary" href="#ingredients">Learn more</a>
+            </div>
+            <ul class="trust-list">
+              <li>Dermatologist tested</li>
+              <li>Vegan formulas</li>
+              <li>Free shipping over $50</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual" aria-label="Skincare packaging showcase">
+            <div class="product-card product-card-main">
+              <img
+                src="https://images.unsplash.com/photo-1556228578-8c89e6adf883?auto=format&fit=crop&w=900&q=80"
+                alt="Skincare bottle and cream containers"
+              />
+              <div class="mini-badge">
+                <span>Best seller</span>
+                <strong>Barrier Repair Serum</strong>
+              </div>
+            </div>
+            <div class="rating-card">
+              <div class="stars">★★★★★</div>
+              <strong>4.9/5</strong>
+              <span>from 12k+ happy skin users</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats container">
+        <div>
+          <strong>94%</strong>
+          <span>reported softer, smoother skin in 4 weeks</span>
+        </div>
+        <div>
+          <strong>40+</strong>
+          <span>clinically backed ingredients</span>
+        </div>
+        <div>
+          <strong>1,200+</strong>
+          <span>five-star reviews this month</span>
+        </div>
+      </section>
+
+      <section class="featured container" id="shop">
+        <div class="section-heading">
+          <p class="eyebrow">Shop essentials</p>
+          <h2>Build a routine that works for your skin.</h2>
+        </div>
+
+        <div class="filter-row" aria-label="Product categories">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="hydrating">Hydrating</button>
+          <button class="filter-btn" data-filter="brightening">Brightening</button>
+          <button class="filter-btn" data-filter="repair">Repair</button>
+          <button class="filter-btn" data-filter="spf">SPF</button>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card-item" data-category="hydrating">
+            <img
+              src="https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=900&q=80"
+              alt="Hydrating cleanser bottle"
+            />
+            <div class="product-meta">
+              <span class="tag">Hydrating</span>
+              <h3>Cloud Dew Cleanser</h3>
+              <p>Low-foam gel cleanser that lifts away dirt without stripping moisture.</p>
+              <div class="product-bottom">
+                <strong>$28</strong>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card-item" data-category="repair">
+            <img
+              src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80"
+              alt="Repair serum in a dropper bottle"
+            />
+            <div class="product-meta">
+              <span class="tag">Repair</span>
+              <h3>Barrier Repair Serum</h3>
+              <p>Niacinamide and ceramides to strengthen and calm stressed skin.</p>
+              <div class="product-bottom">
+                <strong>$42</strong>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card-item" data-category="brightening">
+            <img
+              src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=900&q=80"
+              alt="Brightening facial cream in a jar"
+            />
+            <div class="product-meta">
+              <span class="tag">Brightening</span>
+              <h3>Glow Renew Cream</h3>
+              <p>Vitamin C and peptides to visibly even tone and boost radiance.</p>
+              <div class="product-bottom">
+                <strong>$36</strong>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card-item" data-category="spf">
+            <img
+              src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&w=900&q=80"
+              alt="Sunscreen lotion bottle"
+            />
+            <div class="product-meta">
+              <span class="tag">SPF</span>
+              <h3>Daily Mineral SPF 50</h3>
+              <p>Lightweight, reef-safe sunscreen with no white cast or greasy finish.</p>
+              <div class="product-bottom">
+                <strong>$32</strong>
+                <button>Add to cart</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="benefits" id="ingredients">
+        <div class="container benefits-grid">
+          <div class="benefits-copy">
+            <p class="eyebrow">Ingredient-led care</p>
+            <h2>Clean, effective formulas backed by skin science.</h2>
+            <p>
+              Every formula is designed around hydration, barrier support, and long-term skin health—so your routine works with your skin, not against it.
+            </p>
+            <ul>
+              <li><strong>Hyaluronic acid</strong> for cushiony hydration</li>
+              <li><strong>Ceramides</strong> for barrier repair</li>
+              <li><strong>Niacinamide</strong> to smooth texture and fade spots</li>
+              <li><strong>Peptides</strong> for firmer, more resilient skin</li>
+            </ul>
+          </div>
+
+          <div class="ingredient-panel">
+            <div class="ingredient-item">
+              <span class="ingredient-icon">✦</span>
+              <div>
+                <h3>Hydration first</h3>
+                <p>Plumps and comforts dehydrated skin.</p>
+              </div>
+            </div>
+            <div class="ingredient-item">
+              <span class="ingredient-icon">✦</span>
+              <div>
+                <h3>Barrier support</h3>
+                <p>Helps prevent moisture loss and sensitivity.</p>
+              </div>
+            </div>
+            <div class="ingredient-item">
+              <span class="ingredient-icon">✦</span>
+              <div>
+                <h3>Glow-focused</h3>
+                <p>Improves tone and luminosity without irritation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="routine container" id="routine">
+        <div class="section-heading center">
+          <p class="eyebrow">Simple routine</p>
+          <h2>A three-step ritual for healthy-looking skin.</h2>
+        </div>
+
+        <div class="routine-grid">
+          <div class="routine-step">
+            <span>01</span>
+            <h3>Cleanse</h3>
+            <p>Refresh your skin with a gentle low-foam cleanser that removes buildup while preserving moisture.</p>
+          </div>
+          <div class="routine-step">
+            <span>02</span>
+            <h3>Treat</h3>
+            <p>Layer a serum with ceramides or niacinamide to target concerns and support your barrier.</p>
+          </div>
+          <div class="routine-step">
+            <span>03</span>
+            <h3>Protect</h3>
+            <p>Seal in hydration and defend against UV damage with a lightweight daily SPF.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" id="reviews">
+        <div class="container">
+          <div class="section-heading center">
+            <p class="eyebrow">Real results</p>
+            <h2>Skin lovers swear by our formulas.</h2>
+          </div>
+
+          <div class="testimonial-grid">
+            <blockquote>
+              “My skin feels calmer, smoother, and brighter in just a few weeks. The routine is easy and my makeup sits better too.”
+              <footer>— Maya, dry skin</footer>
+            </blockquote>
+            <blockquote>
+              “The serum is the first one that actually keeps my skin hydrated without clogging my pores.”
+              <footer>— Elena, combination skin</footer>
+            </blockquote>
+            <blockquote>
+              “I love the minimalist philosophy—effective ingredients, no irritation, and a soft glow every day.”
+              <footer>— Sarah, sensitive skin</footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="newsletter container">
+        <div class="newsletter-box">
+          <div>
+            <p class="eyebrow">Stay in the glow</p>
+            <h2>Get skincare tips, product drops, and exclusive offers.</h2>
+          </div>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Your email address" aria-label="Email address" />
+            <button type="submit" class="btn btn-primary">Join now</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div>
+          <div class="brand">
+            <span class="brand-mark">L</span>
+            <span>LumaSkin</span>
+          </div>
+          <p>Thoughtful skincare for healthy, luminous skin.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#shop">Shop</a>
+          <a href="#ingredients">Ingredients</a>
+          <a href="#reviews">Reviews</a>
+        </div>
+        <p class="copyright">© <span id="year"></span> LumaSkin</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
